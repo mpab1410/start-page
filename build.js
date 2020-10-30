@@ -68,7 +68,7 @@ const main = async () => {
     if (themes.length === 0) {
         console.warn(`Warning: No themes found in '${THEME_DIR_PATH}'`);
     } else {
-        console.log(`Found themes: ${themes}`);
+        console.log(`Found themes: [${themes.join(', ')}]`);
     }
 
     // render index template
